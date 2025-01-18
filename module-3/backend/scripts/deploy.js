@@ -4,28 +4,31 @@ async function main() {
   const [deployer] = await ethers.getSigners();
 
   console.log("Deploying contracts with the account:", deployer.address);
-  console.log("Account balance:", (await deployer.getBalance()).toString());
+  console.log(
+    "Account balance:",
+    (await deployer.provider.getBalance(deployer.address)).toString()
+  );
 
-  // Deploy CirclesERC1155 contract
+  // Deploy ERC1155 contract
   const cERC1155 = await ethers.getContractFactory("cERC1155");
   const ERC1155 = await cERC1155.deploy();
-  await ERC1155.deployed();
+  await ERC1155.waitForDeployment();
 
-  console.log("ERC1155 contract deployed to:", ERC1155.address);
+  console.log("ERC1155 contract deployed to:", ERC1155.target);
 
-  // Deploy CirclesForge contract with the address of CirclesERC1155
+  // Deploy Forge contract with the address of ERC1155
   const forge = await ethers.getContractFactory("Forge");
-  const Forge = await forge.deploy(ERC1155.address);
-  await Forge.deployed();
+  const Forge = await forge.deploy(ERC1155.target);
+  await Forge.waitForDeployment();
 
-  console.log("Forge contract deployed to:", Forge.address);
+  console.log("Forge contract deployed to:", Forge.target);
 
-  // Set CirclesForge as the forging contract in CirclesERC1155
-  await ERC1155.setForgingContract(Forge.address);
+  // Set Forge as the forging contract in ERC1155
+  await ERC1155.setForgingContract(Forge.target);
   console.log("Set Forge as the forging contract in ERC1155");
 
-  // Grant minting rights to CirclesForge contract
-  await ERC1155.grantRole(ERC1155.MINTER_ROLE(), Forge.address);
+  // Grant minting rights to Forge contract
+  await ERC1155.grantRole(ERC1155.MINTER_ROLE(), Forge.target);
   console.log("Granted minting rights to Forge contract");
 }
 
