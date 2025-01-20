@@ -11,7 +11,7 @@ error ERC1155__NotTokenOwnerOrForgeContract();
 error ERC1155__InvalidTokenForBurn();
 error ERC1155__NotAMinter();
 
-contract cERC1155 is ERC1155, AccessControl {
+contract erc1155 is ERC1155, AccessControl {
 
     uint256 public constant TOKEN_ID_0 = 0;
     uint256 public constant TOKEN_ID_1 = 1;
@@ -25,7 +25,7 @@ contract cERC1155 is ERC1155, AccessControl {
 
     // Storage variables
     address private s_forgingContract;
-    mapping(address => mapping(uint256 => uint256)) private s_lastMintTimestamp;
+    mapping(address => mapping(uint256 => uint256)) private _lastMintTimestamp;
 
     event Minted(address indexed user, uint256 indexed tokenId, uint256 amount);
     event Burned(address indexed user, uint256 indexed tokenId, uint256 amount);
@@ -43,10 +43,10 @@ contract cERC1155 is ERC1155, AccessControl {
 
      function mint(address account, uint256 tokenId, uint256 amount) public {
         if (tokenId <= TOKEN_ID_2) {
-            if (block.timestamp - s_lastMintTimestamp[msg.sender][tokenId] < COOLDOWN_TIME) 
+            if (block.timestamp - _lastMintTimestamp[msg.sender][tokenId] < COOLDOWN_TIME) 
                 revert ERC1155__CooldownNotElapsed();
 
-                s_lastMintTimestamp[msg.sender][tokenId] = block.timestamp;
+                _lastMintTimestamp[msg.sender][tokenId] = block.timestamp;
         } else {
             if (!hasRole(MINTER_ROLE, msg.sender))
                 revert ERC1155__NotAMinter();
@@ -56,11 +56,7 @@ contract cERC1155 is ERC1155, AccessControl {
         emit Minted(msg.sender, tokenId, amount);
     }
 
-    /**
-     * @notice Allows users to trade tokens 3-6 for tokens 0-2.
-     * @param tokenId The ID of the token to trade.
-     * @param desiredToken The ID of the desired token.
-     */
+    
     function tradeToken(uint256 tokenId, uint256 desiredToken, uint256 amount) public {
         if (!(tokenId >= 3 && tokenId <= 6))
             revert ERC1155__InvalidTokenForTrade();
@@ -72,20 +68,12 @@ contract cERC1155 is ERC1155, AccessControl {
         emit Traded(msg.sender, tokenId, desiredToken, amount);
     }
 
-    /**
-     * @notice Allows burning of tokens.
-     * @param tokenId The ID of the token to burn.
-     * @param amount The number of tokens to burn.
-     */
+    
     function burn(address account, uint256 tokenId, uint256 amount) public {
         _burn(account, tokenId, amount);
         emit Burned(account, tokenId, amount);
     }
 
-    /**
-     * @notice Sets the address of the forging contract.
-     * @param _forgingContract The address of the forging contract.
-     */
     function setForgingContract(address _forgingContract) public {
         require(hasRole(DEFAULT_ADMIN_ROLE, msg.sender), "Not an admin");
 
@@ -97,21 +85,14 @@ contract cERC1155 is ERC1155, AccessControl {
         grantRole(MINTER_ROLE, s_forgingContract);
     }
 
-    /**
-     * @dev Overrides the supportsInterface function to rectify function selector clashes.
-     * @param interfaceId The ID of the interface to check.
-     */
+    
     function supportsInterface(bytes4 interfaceId) public view override(ERC1155, AccessControl) returns (bool) {
         return super.supportsInterface(interfaceId);
     }
 
-    /**
-     * @notice Retrieves the last mint timestamp for a user's specific token.
-     * @param user The address of the user.
-     * @param tokenId The ID of the token.
-     */
+    
     function getLastMintTimestamp(address user, uint256 tokenId) external view returns (uint256) {
-        return s_lastMintTimestamp[user][tokenId];
+        return _lastMintTimestamp[user][tokenId];
     }
 
 }

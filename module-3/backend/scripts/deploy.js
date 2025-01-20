@@ -10,8 +10,8 @@ async function main() {
   );
 
   // Deploy ERC1155 contract
-  const cERC1155 = await ethers.getContractFactory("cERC1155");
-  const ERC1155 = await cERC1155.deploy();
+  const erc1155 = await ethers.getContractFactory("erc1155");
+  const ERC1155 = await erc1155.deploy();
   await ERC1155.waitForDeployment();
 
   console.log("ERC1155 contract deployed to:", ERC1155.target);

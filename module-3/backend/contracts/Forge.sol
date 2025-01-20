@@ -19,17 +19,17 @@ contract Forge {
     uint256 public constant TOKEN_ID_6 = 6;
 
     // Storage: Instance of the ERC1155 contract
-    cERC1155 private _erc1155Contract;
+    erc1155 private _erc1155Contract;
 
     // Events
     event TokenForged(address indexed user, uint256 indexed tokenId, uint256 indexed amount);
 
     /**
-     * @dev Constructor that sets the address of the CirclesERC1155 contract.
-     * @param _erc1155Address The address of the CirclesERC1155 contract.
+     * @dev Constructor that sets the address of the erc1155 contract.
+     * @param _erc1155Address The address of the ercERC1155 contract.
      */
     constructor(address _erc1155Address) {
-        _erc1155Contract = cERC1155(_erc1155Address);
+        _erc1155Contract = erc1155(_erc1155Address);
     }
 
     /**

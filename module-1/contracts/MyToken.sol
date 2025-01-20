@@ -10,7 +10,7 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Capped.sol";
 error InsufficientContractFunds(uint256 contractBalance, uint256 attemptedTransferAmount);
 error AddressIsBanned(address bannedAddress);
 
-contract MyToken is ERC20, ERC20Permit("MyToken"), Ownable(address(msg.sender)), ERC20Capped(1000000 * (10**18)){
+contract MyToken is ERC20Capped(1000000 * (10**18)) , Ownable(address(msg.sender)) {
 
      constructor(uint256 initialSupply) ERC20("MyToken", "RsUW") {
         _mint(address(this), initialSupply * (10**decimals()));
@@ -58,21 +58,25 @@ contract MyToken is ERC20, ERC20Permit("MyToken"), Ownable(address(msg.sender)),
     function buy() external payable {
         require(msg.value > 0, "Insufficient amount of ether sent!");
         uint256 TokensToBuy = TokensPerWei * msg.value;
-
+        uint256 remainingTokens;
         // We need to check : do we hold tokens in this contract that we can sell to the buyer?
         if (balanceOf(address(this)) >= TokensToBuy) {
             // Send from what we have in store
             _transfer(address(this), msg.sender, TokensToBuy);
         } else {
+            if (balanceOf(address(this)) > 0) {
+               _transfer(address(this), msg.sender, balanceOf(address(this)));
+            }
+            remainingTokens = TokensToBuy - balanceOf(address(this));
             // Mint new tokens and sell those
-            _mint(msg.sender, TokensToBuy); // tx will revert if we exceed the total supply
+            _mint(msg.sender, remainingTokens); // tx will revert if we exceed the total supply
         }
     }
 
     //Withdraw funds received from sale of Token from the contract to the owner
     function withdraw() external onlyOwner {
         // transfer the ether in the contract to the owner
-        (bool success, ) = msg.sender.call{value: address(this).balance}("");
+        (bool success, ) = address(this).call{value: address(this).balance}("");
         require(success, "transfer failed");
     }
 
@@ -118,7 +122,7 @@ contract MyToken is ERC20, ERC20Permit("MyToken"), Ownable(address(msg.sender)),
     }
 
     // Check for banned addresses before performing a token transfer.
-    function _update(address from, address to, uint256 amount ) internal virtual override(ERC20, ERC20Capped)  {
+    function _update(address from, address to, uint256 amount ) internal virtual override  {
         require(!banned[from], "User(from) is banned");
         require(!banned[to], "User(to) is banned");
         super._update(from, to, amount);
