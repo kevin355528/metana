@@ -1,4 +1,5 @@
 const { ethers, upgrades } = require("hardhat");
+const { deployProxy } = require("@openzeppelin/truffle-upgrades");
 
 async function main() {
   const [deployer] = await ethers.getSigners();
@@ -11,7 +12,7 @@ async function main() {
   );
 
   const myToken = await ethers.getContractFactory("MyToken");
-  const instance = await upgrades.deployProxy(myToken, [1000]); // use the upgradeable pattern
+  const instance = await upgrades.deployProxy(myToken);
   await instance.deployed();
 
   console.log("ERC20 deployed contract address: ", instance.address);

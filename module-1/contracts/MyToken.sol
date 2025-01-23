@@ -17,6 +17,18 @@ contract MyToken is ERC20Capped(1000000 * (10**18)) , Ownable(address(msg.sender
         
      }
 
+     function initialize(uint256 initialSupply) public initializer {
+        // initialize our parents
+        __Ownable_init();
+        __ERC20_init(TOKEN_NAME, TOKEN_SYMBOL);
+        __ERC20Capped_init(TOTAL_SUPPLY_MAX * (10**decimals()));
+
+        wTokensPerWei = 1_000;
+        sellbackRatewTokenPerWei = 2_000;
+
+        _mint(address(this), initialSupply * (10**decimals())); // count everything in "wTokens" the smallest unit of our Token
+    }
+
     uint TokensPerWei = 1000;
     uint sellbackTokenPerWei = 2000;
     
