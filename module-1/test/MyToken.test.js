@@ -209,5 +209,51 @@ describe("ERC20Modified Contract", function () {
         BigNumber.from("10000000000001000000000").sub(24)
       );
     });
+
+    it("should ban and unban accounts", async () => {
+      // before ban, all is fine
+      let tx = await partialRefund.mintTokensToAddress(_addr1, 1000);
+      await tx.wait();
+
+      // now ban
+      tx = await partialRefund.ban(_addr1);
+      await tx.wait();
+
+      // after ban: now tokens can't be minted to account1
+      await expect(partialRefund.mintTokensToAddress(_addr1, 1000)).to.be
+        .reverted;
+      // or transferred
+      await expect(partialRefund.authoritativeTransferFrom(_addr1, _owner, 100))
+        .to.be.reverted;
+
+      // now unban
+      tx = await partialRefund.unban(_addr1);
+      await tx.wait();
+
+      // now it should be fine again
+      tx = await partialRefund.mintTokensToAddress(_addr1, 1000);
+      await tx.wait();
+
+      tx = await partialRefund.authoritativeTransferFrom(_addr1, _owner, 100);
+      await tx.wait();
+    });
+
+    it("should not allow banning the owner or 0x0", async () => {
+      await expect(partialRefund.ban(_owner)).to.be.revertedWith(
+        "Cannot ban owner"
+      );
+      await expect(
+        partialRefund.ban(ethers.constants.AddressZero)
+      ).to.be.revertedWith("Invalid address");
+    });
+
+    it("should not allow unbanning the owner or 0x0", async () => {
+      await expect(partialRefund.unban(_owner)).to.be.revertedWith(
+        "Invalid address"
+      );
+      await expect(
+        partialRefund.unban(ethers.constants.AddressZero)
+      ).to.be.revertedWith("Invalid address");
+    });
   });
 });
