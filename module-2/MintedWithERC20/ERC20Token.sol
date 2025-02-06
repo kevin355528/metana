@@ -10,4 +10,9 @@ contract MyToken is ERC20, ERC20Permit {
     function mintToken(address to, uint256 amount) external {
         _mint(to, amount);
     }
+
+    function approve(address owner, address spender, uint256 amount) external returns (bool) {
+        _approve(owner, spender, amount);
+        return true;
+    }
 }

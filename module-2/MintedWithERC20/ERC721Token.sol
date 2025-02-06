@@ -9,6 +9,7 @@ contract NFTContract is ERC721("NFTContract", "MTK721"), Ownable2Step {
     uint256 public tokenSupply = 0;
     uint256 public constant MAX_VALUE = 5;
     uint256 public constant PRICE = 0.00001 ether; 
+    address public minterContract;
 
     address immutable deployer;
 
@@ -21,6 +22,11 @@ contract NFTContract is ERC721("NFTContract", "MTK721"), Ownable2Step {
         _mint(msg.sender, tokenSupply);
         tokenSupply++;
     }
+
+    function setMinterContract(address _minterContract) external onlyOwner {
+        minterContract = _minterContract;
+    }
+
 
     function viewBalance() external view returns (uint256) {
         return address(this).balance;

@@ -3,11 +3,12 @@ pragma solidity ^0.8.20;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/access/Ownable2Step.sol";
+import "@openzeppelin/contracts/utils/Strings.sol";
 
 contract NFTContract is ERC721("MyToken721", "MTK721"), Ownable2Step {
 
     uint256 public tokenSupply = 0;
-    uint256 public constant MAX_VALUE = 5;
+    uint256 public constant MAX_VALUE = 8;
     uint256 public constant PRICE = 0.00001 ether; 
 
     address immutable deployer;
@@ -28,6 +29,13 @@ contract NFTContract is ERC721("MyToken721", "MTK721"), Ownable2Step {
 
     function withdraw() external {
         payable(deployer).transfer(address(this).balance);
+    }
+
+    function tokenURI(uint256 tokenId) public view virtual override returns (string memory) {
+        require(_ownerOf(tokenId) != address(0), "ERC721Metadata: URI query for nonexistent token");
+
+        string memory baseURI = _baseURI();
+        return bytes(baseURI).length > 0 ? string(abi.encodePacked(baseURI, Strings.toString(tokenId))) : "";
     }
 
     function _baseURI() internal pure override  returns (string memory) {
