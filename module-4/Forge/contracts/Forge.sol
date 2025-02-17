@@ -24,18 +24,11 @@ contract Forge {
     // Events
     event TokenForged(address indexed user, uint256 indexed tokenId, uint256 indexed amount);
 
-    /**
-     * @dev Constructor that sets the address of the erc1155 contract.
-     * @param _erc1155Address The address of the ercERC1155 contract.
-     */
     constructor(address _erc1155Address) {
         _erc1155Contract = erc1155(_erc1155Address);
     }
 
-    /**
-     * @notice Forges Token 3 by burning tokens 0 & 1.
-     * @param _amount The amount of tokens to be burned in exchange for the same amount of forged tokens.
-     */
+    //Forges Token 3 by burning tokens 0 & 1.
     function forgeToken3(uint256 _amount) external {
         if (_erc1155Contract.balanceOf(msg.sender, TOKEN_ID_0) < _amount) {
             revert __InsufficientToken0();
@@ -51,10 +44,7 @@ contract Forge {
         emit TokenForged(msg.sender, TOKEN_ID_3, _amount);
     }
 
-    /**
-     * @notice Forges Token 4 by burning Tokens 1 & 2.
-     * @param _amount The number of tokens to forge.
-     */
+    //Forges Token 4 by burning Tokens 1 & 2.
     function forgeToken4(uint256 _amount) external {
         if (_erc1155Contract.balanceOf(msg.sender, TOKEN_ID_1) < _amount) {
             revert __InsufficientToken1();
@@ -70,10 +60,7 @@ contract Forge {
         emit TokenForged(msg.sender, TOKEN_ID_4, _amount);
     }
 
-    /**
-     * @notice Forges Token 5 by burning tokens 0 & 2.
-     * @param _amount The number of tokens to forge.
-     */
+    //Forges Token 5 by burning tokens 0 & 2.
     function forgeToken5(uint256 _amount) external {
         if (_erc1155Contract.balanceOf(msg.sender, TOKEN_ID_0) < _amount) {
             revert __InsufficientToken0();
@@ -89,10 +76,7 @@ contract Forge {
         emit TokenForged(msg.sender, TOKEN_ID_5, _amount);
     }
 
-    /**
-     * @notice Forges Token 6 by burning tokens 0, 1, & 2.
-     * @param _amount The number of tokens to forge.
-     */
+    //Forges Token 6 by burning tokens 0, 1, & 2.
     function forgeToken6(uint256 _amount) external {
         if (_erc1155Contract.balanceOf(msg.sender, TOKEN_ID_0) < _amount) {
             revert __InsufficientToken0();

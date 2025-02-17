@@ -32,45 +32,45 @@ describe("erc1155", function () {
 
     it("Should enforce a 1-minute cooldown between mints for token 0", async function () {
       await Erc1155.connect(addr1).mint(addr1.address, 0, 1);
-      await expect(
+      expect(
         Erc1155.connect(addr1).mint(addr1.address, 0, 1)
       ).to.be.revertedWith("ERC1155__CooldownNotElapsed");
     });
 
     it("Should enforce a 1-minute cooldown between mints for token 1", async function () {
       await Erc1155.connect(addr1).mint(addr1.address, 1, 1);
-      await expect(
+      expect(
         Erc1155.connect(addr1).mint(addr1.address, 1, 1)
       ).to.be.revertedWith("ERC1155__CooldownNotElapsed");
     });
 
     it("Should enforce a 1-minute cooldown between mints for token 2", async function () {
       await Erc1155.connect(addr1).mint(addr1.address, 2, 1);
-      await expect(
+      expect(
         Erc1155.connect(addr1).mint(addr1.address, 2, 1)
       ).to.be.revertedWith("ERC1155__CooldownNotElapsed");
     });
 
     it("Should not allow minting token 3 by non-forging contract", async function () {
-      await expect(
+      expect(
         Erc1155.connect(addr1).mint(addr1.address, 3, 1)
       ).to.be.revertedWith("ERC1155__NotAMinter");
     });
 
     it("Should not allow minting token 4 by non-forging contract", async function () {
-      await expect(
+      expect(
         Erc1155.connect(addr1).mint(addr1.address, 4, 1)
       ).to.be.revertedWith("ERC1155__NotAMinter");
     });
 
     it("Should not allow minting token 5 by non-forging contract", async function () {
-      await expect(
+      expect(
         Erc1155.connect(addr1).mint(addr1.address, 5, 1)
       ).to.be.revertedWith("ERC1155__NotAMinter");
     });
 
     it("Should not allow minting token 6 by non-forging contract", async function () {
-      await expect(
+      expect(
         Erc1155.connect(addr1).mint(addr1.address, 6, 1)
       ).to.be.revertedWith("ERC1155__NotAMinter");
     });
@@ -199,50 +199,50 @@ describe("erc1155", function () {
 
     it("Should not allow trading token 0 for token 1", async function () {
       await Erc1155.connect(owner).mint(owner.address, 0, 10);
-      await expect(
-        Erc1155.connect(owner).tradeToken(0, 1, 5)
-      ).to.be.revertedWith("ERC1155__InvalidTokenForTrade");
+      expect(Erc1155.connect(owner).tradeToken(0, 1, 5)).to.be.revertedWith(
+        "ERC1155__InvalidTokenForTrade"
+      );
     });
 
     it("Should not allow trading token 0 for token 2", async function () {
       await Erc1155.connect(owner).mint(owner.address, 0, 10);
-      await expect(
-        Erc1155.connect(owner).tradeToken(0, 2, 5)
-      ).to.be.revertedWith("ERC1155__InvalidTokenForTrade");
+      expect(Erc1155.connect(owner).tradeToken(0, 2, 5)).to.be.revertedWith(
+        "ERC1155__InvalidTokenForTrade"
+      );
     });
 
     it("Should not allow trading token 1 for token 0", async function () {
       await Erc1155.connect(owner).mint(owner.address, 1, 10);
-      await expect(
-        Erc1155.connect(owner).tradeToken(1, 0, 5)
-      ).to.be.revertedWith("ERC1155__InvalidTokenForTrade");
+      expect(Erc1155.connect(owner).tradeToken(1, 0, 5)).to.be.revertedWith(
+        "ERC1155__InvalidTokenForTrade"
+      );
     });
 
     it("Should not allow trading token 1 for token 2", async function () {
       await Erc1155.connect(owner).mint(owner.address, 1, 10);
-      await expect(
-        Erc1155.connect(owner).tradeToken(1, 2, 5)
-      ).to.be.revertedWith("ERC1155__InvalidTokenForTrade");
+      expect(Erc1155.connect(owner).tradeToken(1, 2, 5)).to.be.revertedWith(
+        "ERC1155__InvalidTokenForTrade"
+      );
     });
 
     it("Should not allow trading token 2 for token 0", async function () {
       await Erc1155.connect(owner).mint(owner.address, 2, 10);
-      await expect(
-        Erc1155.connect(owner).tradeToken(2, 0, 5)
-      ).to.be.revertedWith("ERC1155__InvalidTokenForTrade");
+      expect(Erc1155.connect(owner).tradeToken(2, 0, 5)).to.be.revertedWith(
+        "ERC1155__InvalidTokenForTrade"
+      );
     });
 
     it("Should not allow trading token 2 for token 1", async function () {
       await Erc1155.connect(owner).mint(owner.address, 2, 10);
-      await expect(
-        Erc1155.connect(owner).tradeToken(2, 1, 5)
-      ).to.be.revertedWith("ERC1155__InvalidTokenForTrade");
+      expect(Erc1155.connect(owner).tradeToken(2, 1, 5)).to.be.revertedWith(
+        "ERC1155__InvalidTokenForTrade"
+      );
     });
 
     it("Should revert on attempting to trade a non-existent token", async function () {
-      await expect(
-        Erc1155.connect(owner).tradeToken(7, 0, 5)
-      ).to.be.revertedWith("ERC1155__InvalidTokenForTrade");
+      expect(Erc1155.connect(owner).tradeToken(7, 0, 5)).to.be.revertedWith(
+        "ERC1155__InvalidTokenForTrade"
+      );
     });
   });
   describe("Burning", function () {
@@ -331,7 +331,7 @@ describe("erc1155", function () {
     it("Should not allow non-admin to set the forging contract", async function () {
       const forgingContractAddress = addr2.address;
 
-      await expect(
+      expect(
         Erc1155.connect(addr1).setForgingContract(forgingContractAddress)
       ).to.be.revertedWith("ERC1155__NotAnAdmin");
     });

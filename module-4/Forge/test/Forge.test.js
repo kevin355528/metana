@@ -1,7 +1,7 @@
 const { expect } = require("chai");
 const { ethers } = require("hardhat");
 
-describe("CirclesForge", function () {
+describe("Forge", function () {
   let erc1155, Erc1155;
   let forge, Forge;
   let owner, addr1, addr2;
@@ -13,11 +13,11 @@ describe("CirclesForge", function () {
     Erc1155 = await erc1155.deploy();
 
     // Deploy forge contract
-    forge = await ethers.getContractFactory("forge");
-    Forge = await forge.deploy(Erc1155.address);
+    forge = await ethers.getContractFactory("Forge");
+    Forge = await forge.deploy(Erc1155.getAddress());
 
     // Set the forging contract in the ERC1155 contract
-    await Erc1155.setForgingContract(Forge.address);
+    await Erc1155.setForgingContract(Forge.getAddress());
   });
 
   describe("Forging Tokens", function () {
@@ -37,14 +37,14 @@ describe("CirclesForge", function () {
       });
       it("Should revert if trying to forge Token 3 with insufficient Token 0 balance", async function () {
         await Erc1155.mint(owner.address, 1, 5); // Mint some of Token 1 for balance
-        await expect(Forge.connect(owner).forgeToken3(5)).to.be.revertedWith(
+        expect(Forge.connect(owner).forgeToken3(5)).to.be.revertedWith(
           "__InsufficientToken0"
         );
       });
 
       it("Should revert if trying to forge Token 3 with insufficient Token 1 balance", async function () {
         await Erc1155.mint(owner.address, 0, 5); // Mint some of Token 0 for balance
-        await expect(Forge.connect(owner).forgeToken3(5)).to.be.revertedWith(
+        expect(Forge.connect(owner).forgeToken3(5)).to.be.revertedWith(
           "__InsufficientToken1"
         );
       });
@@ -67,14 +67,14 @@ describe("CirclesForge", function () {
 
       it("Should revert if trying to forge Token 4 with insufficient Token 1 balance", async function () {
         await Erc1155.mint(owner.address, 2, 5); // Mint some of Token 1 for balance
-        await expect(Forge.connect(owner).forgeToken4(5)).to.be.revertedWith(
+        expect(Forge.connect(owner).forgeToken4(5)).to.be.revertedWith(
           "Forge__InsufficientToken1"
         );
       });
 
       it("Should revert if trying to forge Token 4 with insufficient Token 1 balance", async function () {
         await Erc1155.mint(owner.address, 1, 5); // Mint some of Token 0 for balance
-        await expect(Forge.connect(owner).forgeToken4(5)).to.be.revertedWith(
+        expect(Forge.connect(owner).forgeToken4(5)).to.be.revertedWith(
           "__InsufficientToken2"
         );
       });
@@ -96,14 +96,14 @@ describe("CirclesForge", function () {
       });
       it("Should revert if trying to forge Token 5 with insufficient Token 0 balance", async function () {
         await Erc1155.mint(owner.address, 2, 5); // Mint some of Token 1 for balance
-        await expect(Forge.connect(owner).forgeToken5(5)).to.be.revertedWith(
+        expect(Forge.connect(owner).forgeToken5(5)).to.be.revertedWith(
           "__InsufficientToken0"
         );
       });
 
       it("Should revert if trying to forge Token 5 with insufficient Token 2 balance", async function () {
         await Erc1155.mint(owner.address, 0, 5); // Mint some of Token 0 for balance
-        await expect(Forge.connect(owner).forgeToken5(5)).to.be.revertedWith(
+        expect(Forge.connect(owner).forgeToken5(5)).to.be.revertedWith(
           "Forge__InsufficientToken2"
         );
       });
@@ -129,7 +129,7 @@ describe("CirclesForge", function () {
       it("Should revert if trying to forge Token 6 with insufficient Token 0 balance", async function () {
         await Erc1155.mint(owner.address, 1, 5);
         await Erc1155.mint(owner.address, 2, 5);
-        await expect(Forge.connect(owner).forgeToken6(5)).to.be.revertedWith(
+        expect(Forge.connect(owner).forgeToken6(5)).to.be.revertedWith(
           "__InsufficientToken0"
         );
       });
@@ -137,7 +137,7 @@ describe("CirclesForge", function () {
       it("Should revert if trying to forge Token 6 with insufficient Token 1 balance", async function () {
         await Erc1155.mint(owner.address, 0, 5);
         await Erc1155.mint(owner.address, 2, 5);
-        await expect(Forge.connect(owner).forgeToken6(5)).to.be.revertedWith(
+        expect(Forge.connect(owner).forgeToken6(5)).to.be.revertedWith(
           "__InsufficientToken1"
         );
       });
@@ -145,7 +145,7 @@ describe("CirclesForge", function () {
       it("Should revert if trying to forge Token 6 with insufficient Token 1 balance", async function () {
         await Erc1155.mint(owner.address, 0, 5);
         await Erc1155.mint(owner.address, 1, 5);
-        await expect(Forge.connect(owner).forgeToken6(5)).to.be.revertedWith(
+        expect(Forge.connect(owner).forgeToken6(5)).to.be.revertedWith(
           "__InsufficientToken2"
         );
       });
