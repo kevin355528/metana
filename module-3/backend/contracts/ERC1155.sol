@@ -42,15 +42,17 @@ contract erc1155 is ERC1155, AccessControl {
     }
 
      function mint(address account, uint256 tokenId, uint256 amount) public {
-        if (tokenId <= TOKEN_ID_2) {
-            if (block.timestamp - _lastMintTimestamp[msg.sender][tokenId] < COOLDOWN_TIME) 
+        if (!hasRole(MINTER_ROLE, msg.sender))
+                revert ERC1155__NotAMinter();
+        
+        if (tokenId > TOKEN_ID_2) {
+            revert
+        }
+            
+        if (block.timestamp - _lastMintTimestamp[msg.sender][tokenId] < COOLDOWN_TIME) 
                 revert ERC1155__CooldownNotElapsed();
 
-                _lastMintTimestamp[msg.sender][tokenId] = block.timestamp;
-        } else {
-            if (!hasRole(MINTER_ROLE, msg.sender))
-                revert ERC1155__NotAMinter();
-        }
+       _lastMintTimestamp[msg.sender][tokenId] = block.timestamp;
 
         _mint(account, tokenId, amount, "");
         emit Minted(msg.sender, tokenId, amount);
