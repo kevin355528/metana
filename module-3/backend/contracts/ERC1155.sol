@@ -60,7 +60,7 @@ contract erc1155 is ERC1155, AccessControl {
 
     
     function tradeToken(uint256 tokenId, uint256 desiredToken, uint256 amount) public {
-        if (!(tokenId >= 3 && tokenId <= 6))
+        if (tokenId > 2 || desiredToken > 2 || tokenId == desiredToken)
             revert ERC1155__InvalidTokenForTrade();
 
         _burn(msg.sender, tokenId, amount);
