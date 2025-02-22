@@ -6,8 +6,7 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Capped.sol";
 
-
-error InsufficientContractFunds(uint256 contractBalance, uint256 attemptedTransferAmount);
+//error InsufficientContractFunds(uint256 contractBalance, uint256 attemptedTransferAmount);
 error AddressIsBanned(address bannedAddress);
 
 contract MyToken is ERC20, ERC20Permit("MyToken"), Ownable(address(msg.sender)), ERC20Capped(1000000 * (10**18)){

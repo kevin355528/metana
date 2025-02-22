@@ -85,6 +85,10 @@ contract erc1155 is ERC1155, AccessControl {
         grantRole(MINTER_ROLE, s_forgingContract);
     }
 
+     function supportsInterface(bytes4 interfaceId) public view override(ERC1155, AccessControl) returns (bool) {
+        return super.supportsInterface(interfaceId);
+    }
+
     function getLastMintTimestamp(address user, uint256 tokenId) external view returns (uint256) {
         return _lastMintTimestamp[user][tokenId];
     }
