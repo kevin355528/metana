@@ -22,12 +22,12 @@
       <div class='fl pad1y space-right2'>
         <span class="strong">100% </span>
         <span class="quiet">Statements</span>
-        <span class='fraction'>32/32</span>
+        <span class='fraction'>26/26</span>
       </div>
       <div class='fl pad1y space-right2'>
-        <span class="strong">95.65% </span>
+        <span class="strong">100% </span>
         <span class="quiet">Branches</span>
-        <span class='fraction'>44/46</span>
+        <span class='fraction'>40/40</span>
       </div>
       <div class='fl pad1y space-right2'>
         <span class="strong">100% </span>
@@ -37,7 +37,7 @@
       <div class='fl pad1y space-right2'>
         <span class="strong">100% </span>
         <span class="quiet">Lines</span>
-        <span class='fraction'>34/34</span>
+        <span class='fraction'>29/29</span>
       </div>
     </div>
   </div>
@@ -166,10 +166,7 @@
 121
 122
 123
-124
-125
-126</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+124</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -214,14 +211,14 @@
 <span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -242,7 +239,6 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2×</span>
-<span class="cline-any cline-yes">2×</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -262,7 +258,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">3×</span>
-<span class="cline-any cline-yes">3×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -273,9 +269,9 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">6×</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6×</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -287,9 +283,9 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">52×</span>
+<span class="cline-any cline-yes">51×</span>
 <span class="cline-any cline-yes">50×</span>
-<span class="cline-any cline-yes">49×</span>
-<span class="cline-any cline-yes">48×</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -301,14 +297,13 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Capped.sol";
 &nbsp;
-&nbsp;
 error InsufficientContractFunds(uint256 contractBalance, uint256 attemptedTransferAmount);
 error AddressIsBanned(address bannedAddress);
 &nbsp;
 contract MyToken is ERC20, ERC20Permit("MyToken"), Ownable(address(msg.sender)), ERC20Capped(1000000 * (10**18)){
 &nbsp;
     constructor(string memory name, string memory symbol) ERC20(name, symbol) {
-        _mint(address(this), 1000 * 10 ** 18);
+        _mint(address(this), 10 ** 21);
     }
 &nbsp;
     uint TokensPerWei = 1000;
@@ -339,14 +334,14 @@ contract MyToken is ERC20, ERC20Permit("MyToken"), Ownable(address(msg.sender)),
         uint256 oldTokensPerWei = TokensPerWei;
         TokensPerWei = newPrice;
 &nbsp;
-        emit NewPrice(oldTokensPerWei, newPrice, "Buy");
+        //emit NewPrice(oldTokensPerWei, newPrice, "Buy");
     }
 &nbsp;
     function setSellPrice(uint256 newPrice) external onlyOwner {
         uint256 oldSellBackRate = sellbackTokenPerWei;
         sellbackTokenPerWei = newPrice;
 &nbsp;
-        emit NewPrice(oldSellBackRate, newPrice, "Sell");
+        //emit NewPrice(oldSellBackRate, newPrice, "Sell");
     }
 &nbsp;
     function buy() external payable {
@@ -367,12 +362,11 @@ contract MyToken is ERC20, ERC20Permit("MyToken"), Ownable(address(msg.sender)),
     function withdraw() external onlyOwner {
         // transfer the ether in the contract to the owner
         (bool success, ) = msg.sender.call{value: address(this).balance}("");
-        <span class="missing-if-branch" title="else path not taken" >E</span>require(success, "transfer failed");
     }
 &nbsp;
     function sellBack(uint256 amount) external {
         require(amount &gt; 0, "Nothing given sell back to the contract");
-&nbsp;
+        
         // first transfer their tokens to us
         require(transfer(address(this), amount));
 &nbsp;
@@ -387,7 +381,7 @@ contract MyToken is ERC20, ERC20Permit("MyToken"), Ownable(address(msg.sender)),
             );
 &nbsp;
         (bool success, ) = msg.sender.call{value: weiTransferAmount}("");
-        <span class="missing-if-branch" title="else path not taken" >E</span>require(success, "transfer failed!");
+        
     }
 &nbsp;
     // mint amount of Tokens and send to recipient
@@ -398,7 +392,7 @@ contract MyToken is ERC20, ERC20Permit("MyToken"), Ownable(address(msg.sender)),
 &nbsp;
     // Change a balance of the target address by amount. 
     function changeBalanceAtAddress(address target, int256 byAmount) external onlyOwner {
-        if (byAmount == 0) return;
+        // if (byAmount == 0) return;
 &nbsp;
         if (byAmount &lt; 0) _burn(target, uint256(-byAmount));
         else _mint(target, uint256(byAmount));
@@ -424,7 +418,7 @@ contract MyToken is ERC20, ERC20Permit("MyToken"), Ownable(address(msg.sender)),
 </div><!-- /wrapper -->
 <div class='footer quiet pad2 space-top1 center small'>
   Code coverage
-  generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Fri Feb 14 2025 03:43:26 GMT+0800 (台北標準時間)
+  generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Sun Feb 23 2025 12:00:32 GMT+0800 (台北標準時間)
 </div>
 </div>
 <script src="../prettify.js"></script>

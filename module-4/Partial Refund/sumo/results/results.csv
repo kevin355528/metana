@@ -1,0 +1,178 @@
+Hash,File,Operator,Start,End,StartLine,EndLine,Original,Replacement,Status,Time(ms)
+m885a3c72,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BLR,1178,1182,30,30,true,false,killed,8190
+m566f6923,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BLR,1467,1472,38,38,false,true,killed,6663
+m1dccd681,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,563,566,12,12," * "," + ",killed,6372
+m240fccaa,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,563,566,12,12," * "," - ",stillborn,2184
+m05b5c155,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,563,566,12,12," * "," / ",stillborn,2279
+mfb23580f,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,563,566,12,12," * "," ** ",stillborn,2208
+m0453f620,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,563,566,12,12," * "," % ",killed,6295
+m6d751b56,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,569,571,12,12,**,+,killed,6404
+m46b21985,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,569,571,12,12,**,-,stillborn,2205
+m1d15d2b1,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,569,571,12,12,**,*,killed,6312
+mcbaa6f7d,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,569,571,12,12,**,/,stillborn,2185
+m489e270c,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,569,571,12,12,**,%,killed,6388
+m854b3990,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,692,696,15,15," ** "," + ",killed,6344
+me04a758d,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,692,696,15,15," ** "," - ",stillborn,2277
+m573cdbd4,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,692,696,15,15," ** "," * ",killed,6367
+m355e202b,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,692,696,15,15," ** "," / ",stillborn,2190
+m86ddc54c,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,692,696,15,15," ** "," % ",killed,6345
+md9227a19,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,1058,1062,27,27," != "," >  ",killed,6684
+m81c13b0b,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,1058,1062,27,27," != ","  < ",live,6864
+m1de14af9,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,1058,1062,27,27," != "," <= ",killed,6654
+m12cce8b4,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,1058,1062,27,27," != "," >= ",killed,6639
+me3bf674e,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,1058,1062,27,27," != "," == ",killed,6645
+m079178f4,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,1116,1120,28,28," != "," >  ",live,6879
+m13582e86,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,1116,1120,28,28," != ","  < ",killed,6703
+m180cbff3,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,1116,1120,28,28," != "," <= ",killed,8145
+m93b0bdb2,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,1116,1120,28,28," != "," >= ",killed,6684
+m7b543b88,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,1116,1120,28,28," != "," == ",killed,6642
+mceca1106,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,1348,1352,35,35," != "," >  ",killed,6814
+m3b37950d,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,1348,1352,35,35," != ","  < ",live,6864
+ma6a5fff9,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,1348,1352,35,35," != "," <= ",killed,6759
+m9f668ac7,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,1348,1352,35,35," != "," >= ",killed,6658
+m663f1725,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,1348,1352,35,35," != "," == ",killed,6649
+m5a6a62ab,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,1405,1409,36,36," != "," >  ",live,6871
+mef6f7913,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,1405,1409,36,36," != ","  < ",killed,6621
+mc25e0a4c,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,1405,1409,36,36," != "," <= ",killed,6686
+me1539054,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,1405,1409,36,36," != "," >= ",killed,6752
+mf799dde9,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,1405,1409,36,36," != "," == ",killed,6632
+m260a33f3,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,2076,2079,57,57," > "," >=  ",killed,6703
+m9ab6a97d,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,2076,2079,57,57," > "," <=  ",killed,6858
+m572f8530,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,2076,2079,57,57," > "," < ",killed,6890
+m62d9d1c4,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,2076,2079,57,57," > "," != ",live,7493
+m98e9ffc0,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,2076,2079,57,57," > "," == ",killed,7413
+mbacd5024,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,2164,2167,58,58," * "," + ",killed,7095
+me25185f7,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,2164,2167,58,58," * "," - ",killed,7056
+me38250a2,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,2164,2167,58,58," * "," / ",killed,6952
+mf622dd9e,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,2164,2167,58,58," * "," ** ",killed,8414
+m79442e3f,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,2164,2167,58,58," * "," % ",killed,6945
+mab20be50,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,2314,2318,61,61," >= ","  > ",killed,7103
+mb8636737,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,2314,2318,61,61," >= ","  < ",killed,6813
+m69d9e0d5,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,2314,2318,61,61," >= "," <= ",killed,6805
+m33210fc9,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,2314,2318,61,61," >= "," != ",killed,6774
+mb9f70460,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,2314,2318,61,61," >= "," == ",killed,6848
+m54488be3,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,2971,2974,77,77," > "," >=  ",killed,6904
+mc66f6901,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,2971,2974,77,77," > "," <=  ",killed,6763
+m22599776,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,2971,2974,77,77," > "," < ",killed,6838
+m448a5e84,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,2971,2974,77,77," > "," != ",live,6934
+m627fa103,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,2971,2974,77,77," > "," == ",killed,6775
+m719691d9,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,3225,3228,83,83," / "," + ",killed,6739
+mafbdc1e8,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,3225,3228,83,83," / "," - ",killed,6742
+m8b15ac48,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,3225,3228,83,83," / "," * ",killed,6820
+m91bb7f7c,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,3225,3228,83,83," / "," ** ",killed,6819
+mb2738e50,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,3225,3228,83,83," / "," % ",killed,6833
+me1a9461a,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,3335,3338,86,86," > "," >=  ",live,6884
+mb24df358,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,3335,3338,86,86," > "," <=  ",killed,6825
+m44bb8301,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,3335,3338,86,86," > "," < ",killed,6870
+m59bb627c,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,3335,3338,86,86," > "," != ",killed,6911
+m40b6ca43,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,3335,3338,86,86," > "," == ",killed,6930
+m58ed00bd,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,3996,3999,106,106," < "," <= ",live,6934
+m614ca713,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,3996,3999,106,106," < "," >=  ",killed,6529
+mb446fce8,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,3996,3999,106,106," < "," > ",killed,6602
+md37fa902,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,3996,3999,106,106," < "," != ",killed,6604
+m783f4cdb,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,BOR,3996,3999,106,106," < "," == ",killed,8167
+m1af4f59e,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,CCD,584,707,14,16,"constructor(string memory name, string memory symbol) ERC20(name, symbol) {        _mint(address(this), 10 ** 21);    }",,stillborn,2224
+m050fbca4,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,CSC,2290,2329,61,61,balanceOf(address(this)) >= TokensToBuy,true,killed,6885
+m55d4f016,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,CSC,2290,2329,61,61,balanceOf(address(this)) >= TokensToBuy,false,killed,6830
+m370d5869,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,CSC,2455,2613,61,67," else {            // Mint new tokens and sell those            _mint(msg.sender, TokensToBuy); // tx will revert if we exceed the total supply        }",,killed,6939
+m7ad3bf4d,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,CSC,3318,3359,86,86,weiTransferAmount > address(this).balance,true,killed,6852
+m90fd0d23,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,CSC,3318,3359,86,86,weiTransferAmount > address(this).balance,false,killed,6880
+m698d491f,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,CSC,3988,4000,106,106,byAmount < 0,true,killed,6535
+me811543c,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,CSC,3988,4000,106,106,byAmount < 0,false,killed,6651
+m736c2e46,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,CSC,4036,4084,106,107,"        else _mint(target, uint256(byAmount));",,killed,6709
+m5a63402d,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,DLR,596,614,14,14,string memory name,string storage name,stillborn,2249
+m3fd8b6cf,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,DLR,616,636,14,14,string memory symbol,string storage symbol,stillborn,2267
+m99e887e6,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,ECS,4016,4034,106,106,uint256(-byAmount),uint8(-byAmount),stillborn,2228
+m8d41bc27,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,ECS,4065,4082,107,107,uint256(byAmount),uint8(byAmount),stillborn,2249
+mb7633618,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,EHC,1046,1094,27,27,"require(addr != msg.sender, ""Cannot ban owner"");","/* require(addr != msg.sender, ""Cannot ban owner""); */",killed,6751
+md0fe43a8,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,EHC,1104,1151,28,28,"require(addr != address(0), ""Invalid address"");","/* require(addr != address(0), ""Invalid address""); */",killed,6737
+m7ae71827,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,EHC,1336,1383,35,35,"require(addr != msg.sender, ""Invalid address"");","/* require(addr != msg.sender, ""Invalid address""); */",killed,6774
+m2506b529,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,EHC,1393,1440,36,36,"require(addr != address(0), ""Invalid address"");","/* require(addr != address(0), ""Invalid address""); */",killed,6717
+m5a956a69,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,EHC,2059,2120,57,57,"require(msg.value > 0, ""Insufficient amount of ether sent!"");","/* require(msg.value > 0, ""Insufficient amount of ether sent!""); */",killed,6773
+m3f040cde,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,EHC,2957,3020,77,77,"require(amount > 0, ""Nothing given sell back to the contract"");","/* require(amount > 0, ""Nothing given sell back to the contract""); */",killed,6824
+m72f09aea,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,EHC,3086,3127,80,80,"require(transfer(address(this), amount));","/* require(transfer(address(this), amount)); */",killed,6843
+m2d9485c3,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,EHC,4499,4546,118,118,"require(!banned[from], ""User(from) is banned"");","/* require(!banned[from], ""User(from) is banned""); */",killed,6819
+m79fb42e8,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,EHC,4556,4599,119,119,"require(!banned[to], ""User(to) is banned"");","/* require(!banned[to], ""User(to) is banned""); */",killed,6705
+m1d0e3e26,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,ETR,2838,2887,73,73,"msg.sender.call{value: address(this).balance}("""")","msg.sender.delegatecall("""")",killed,6791
+m44511853,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,ETR,2838,2887,73,73,"msg.sender.call{value: address(this).balance}("""")","msg.sender.staticcall("""")",killed,6873
+md30ae088,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,ETR,3529,3574,92,92,"msg.sender.call{value: weiTransferAmount}("""")","msg.sender.delegatecall("""")",killed,6941
+m428f082d,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,ETR,3529,3574,92,92,"msg.sender.call{value: weiTransferAmount}("""")","msg.sender.staticcall("""")",killed,6856
+me623d1c8,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,FVR,987,1033,26,26,"function ban(address addr) external onlyOwner ","function ban(address addr) public onlyOwner ",live,6986
+ma9a5fe07,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,FVR,987,1033,26,26,"function ban(address addr) external onlyOwner ","function ban(address addr) internal onlyOwner ",killed,6782
+md6ee7018,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,FVR,987,1033,26,26,"function ban(address addr) external onlyOwner ","function ban(address addr) private onlyOwner ",killed,6713
+m9f1779f9,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,FVR,1276,1324,34,34,"function unban(address addr) external onlyOwner ","function unban(address addr) public onlyOwner ",live,6942
+m050ee1dd,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,FVR,1276,1324,34,34,"function unban(address addr) external onlyOwner ","function unban(address addr) internal onlyOwner ",killed,6694
+md8f73a29,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,FVR,1276,1324,34,34,"function unban(address addr) external onlyOwner ","function unban(address addr) private onlyOwner ",killed,6778
+m96e8bc32,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,FVR,1561,1619,42,42,"function setBuyPrice(uint256 newPrice) external onlyOwner ","function setBuyPrice(uint256 newPrice) public onlyOwner ",live,6939
+m6bbd85ac,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,FVR,1561,1619,42,42,"function setBuyPrice(uint256 newPrice) external onlyOwner ","function setBuyPrice(uint256 newPrice) internal onlyOwner ",killed,6908
+m3d059ae9,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,FVR,1561,1619,42,42,"function setBuyPrice(uint256 newPrice) external onlyOwner ","function setBuyPrice(uint256 newPrice) private onlyOwner ",killed,6909
+m53cafc49,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,FVR,1781,1840,49,49,"function setSellPrice(uint256 newPrice) external onlyOwner ","function setSellPrice(uint256 newPrice) public onlyOwner ",live,6931
+mc0f0aee4,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,FVR,1781,1840,49,49,"function setSellPrice(uint256 newPrice) external onlyOwner ","function setSellPrice(uint256 newPrice) internal onlyOwner ",killed,7057
+mc1a76baa,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,FVR,1781,1840,49,49,"function setSellPrice(uint256 newPrice) external onlyOwner ","function setSellPrice(uint256 newPrice) private onlyOwner ",killed,6956
+mb44f9b5d,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,FVR,2016,2048,56,56,"function buy() external payable ","function buy() public payable ",live,6967
+m1ec88841,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,FVR,2709,2748,71,71,"function withdraw() external onlyOwner ","function withdraw() public onlyOwner ",live,6945
+ma8d8db6b,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,FVR,2709,2748,71,71,"function withdraw() external onlyOwner ","function withdraw() internal onlyOwner ",killed,6799
+m77c5b845,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,FVR,2709,2748,71,71,"function withdraw() external onlyOwner ","function withdraw() private onlyOwner ",killed,6864
+m589f8b1c,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,FVR,2903,2946,76,76,"function sellBack(uint256 amount) external ","function sellBack(uint256 amount) public ",live,6914
+m90762c65,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,FVR,2903,2946,76,76,"function sellBack(uint256 amount) external ","function sellBack(uint256 amount) internal ",killed,6836
+m16f4378f,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,FVR,2903,2946,76,76,"function sellBack(uint256 amount) external ","function sellBack(uint256 amount) private ",killed,6862
+ma348d09b,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,FVR,3652,3735,97,97,"function mintTokensToAddress(address recipient, uint256 amount) external onlyOwner ","function mintTokensToAddress(address recipient, uint256 amount) public onlyOwner ",live,6999
+m65415bc9,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,FVR,3652,3735,97,97,"function mintTokensToAddress(address recipient, uint256 amount) external onlyOwner ","function mintTokensToAddress(address recipient, uint256 amount) internal onlyOwner ",killed,6513
+mf9e490e0,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,FVR,3652,3735,97,97,"function mintTokensToAddress(address recipient, uint256 amount) external onlyOwner ","function mintTokensToAddress(address recipient, uint256 amount) private onlyOwner ",killed,6583
+md0b083b2,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,FVR,3848,3932,103,103,"function changeBalanceAtAddress(address target, int256 byAmount) external onlyOwner ","function changeBalanceAtAddress(address target, int256 byAmount) public onlyOwner ",live,6932
+m154f8f44,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,FVR,3848,3932,103,103,"function changeBalanceAtAddress(address target, int256 byAmount) external onlyOwner ","function changeBalanceAtAddress(address target, int256 byAmount) internal onlyOwner ",killed,6600
+mc417021c,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,FVR,3848,3932,103,103,"function changeBalanceAtAddress(address target, int256 byAmount) external onlyOwner ","function changeBalanceAtAddress(address target, int256 byAmount) private onlyOwner ",killed,6588
+m48869001,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,FVR,4160,4256,112,112,"function authoritativeTransferFrom(address from, address to, uint256 amount) external onlyOwner ","function authoritativeTransferFrom(address from, address to, uint256 amount) public onlyOwner ",live,6912
+m888bb3c2,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,FVR,4160,4256,112,112,"function authoritativeTransferFrom(address from, address to, uint256 amount) external onlyOwner ","function authoritativeTransferFrom(address from, address to, uint256 amount) internal onlyOwner ",killed,6665
+mb1630d27,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,FVR,4160,4256,112,112,"function authoritativeTransferFrom(address from, address to, uint256 amount) external onlyOwner ","function authoritativeTransferFrom(address from, address to, uint256 amount) private onlyOwner ",killed,8234
+mf5ec1274,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,GVR,2067,2076,57,57,msg.value,tx.gasprice,killed,6829
+mfa06aecc,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,GVR,2167,2176,58,58,msg.value,tx.gasprice,killed,8324
+m3af39265,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,ILR,556,563,12,12,1000000,999999,live,6933
+m6173505b,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,ILR,556,563,12,12,1000000,1000001,live,6917
+m53632a11,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,ILR,567,569,12,12,10,9,live,6950
+mc838fa75,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,ILR,567,569,12,12,10,11,live,6924
+m2224829f,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,ILR,571,573,12,12,18,17,live,6969
+m180a699b,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,ILR,571,573,12,12,18,19,live,6907
+m12ea1ae3,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,ILR,690,692,15,15,10,9,killed,6500
+md7ddfcc8,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,ILR,690,692,15,15,10,11,killed,6460
+m73727a6e,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,ILR,696,698,15,15,21,20,killed,6476
+m45fc5575,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,ILR,696,698,15,15,21,22,killed,6490
+m95daea7c,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,ILR,735,739,18,18,1000,999,killed,6824
+m69560d52,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,ILR,735,739,18,18,1000,1001,killed,6821
+m04ae817e,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,ILR,773,777,19,19,2000,1999,live,6953
+m9a640030,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,ILR,773,777,19,19,2000,2001,live,6990
+m470d0345,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,ILR,1128,1129,28,28,0,1,killed,6742
+m6481d078,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,ILR,1417,1418,36,36,0,1,killed,6821
+m1d7e041f,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,ILR,2079,2080,57,57,0,1,live,6994
+m9ccbca53,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,ILR,2974,2975,77,77,0,1,live,7006
+md85f4a2a,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,ILR,3999,4000,106,106,0,1,live,6962
+m7c4048be,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,PKD,2016,2048,56,56,"function buy() external payable ","function buy() external  ",stillborn,2229
+m3ac51914,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,MOD,584,658,14,14,"constructor(string memory name, string memory symbol) ERC20(name, symbol) ","constructor(string memory name, string memory symbol)  ",stillborn,2311
+meae7f7ba,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,MOD,987,1033,26,26,"function ban(address addr) external onlyOwner ","function ban(address addr) external  ",killed,6814
+mb56969a4,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,MOD,1276,1324,34,34,"function unban(address addr) external onlyOwner ","function unban(address addr) external  ",killed,6708
+m7b9b7856,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,MOD,1561,1619,42,42,"function setBuyPrice(uint256 newPrice) external onlyOwner ","function setBuyPrice(uint256 newPrice) external  ",killed,7086
+m4a500483,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,MOD,1781,1840,49,49,"function setSellPrice(uint256 newPrice) external onlyOwner ","function setSellPrice(uint256 newPrice) external  ",killed,7002
+m6313612d,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,MOD,2709,2748,71,71,"function withdraw() external onlyOwner ","function withdraw() external  ",killed,6959
+m5d72f336,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,MOD,3652,3735,97,97,"function mintTokensToAddress(address recipient, uint256 amount) external onlyOwner ","function mintTokensToAddress(address recipient, uint256 amount) external  ",killed,6623
+m60ae4a38,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,MOD,3848,3932,103,103,"function changeBalanceAtAddress(address target, int256 byAmount) external onlyOwner ","function changeBalanceAtAddress(address target, int256 byAmount) external  ",killed,6692
+mfb1f6f4c,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,MOD,4160,4256,112,112,"function authoritativeTransferFrom(address from, address to, uint256 amount) external onlyOwner ","function authoritativeTransferFrom(address from, address to, uint256 amount) external  ",killed,6751
+m20ff1deb,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,MOI,2016,2048,56,56,"function buy() external payable ","function buy() external payable onlyOwner ",killed,8278
+m83d63bb9,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,MOI,2903,2946,76,76,"function sellBack(uint256 amount) external ","function sellBack(uint256 amount) external onlyOwner ",killed,6859
+m1380aa3f,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,MOI,4381,4488,117,117,"function _update(address from, address to, uint256 amount ) internal virtual override(ERC20, ERC20Capped)  ","function _update(address from, address to, uint256 amount ) internal virtual override(ERC20, ERC20Capped)  onlyOwner ",killed,6830
+m804121e2,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,ORFD,4381,4648,117,121,"function _update(address from, address to, uint256 amount ) internal virtual override(ERC20, ERC20Capped)  {        require(!banned[from], ""User(from) is banned"");        require(!banned[to], ""User(to) is banned"");        super._update(from, to, amount);    }",,stillborn,2234
+m5aad3be8,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,SKD,4609,4615,120,120,super.,,killed,6506
+m65447345,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,SLR,502,511,12,12,"""MyToken""","""""",live,7008
+md1550a31,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,TOR,530,540,12,12,msg.sender,tx.origin,live,7018
+m4e2702c5,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,TOR,1062,1072,27,27,msg.sender,tx.origin,live,6999
+ma8c60b36,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,TOR,1352,1362,35,35,msg.sender,tx.origin,live,6961
+mf3b8b1ae,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,TOR,2419,2429,63,63,msg.sender,tx.origin,live,7135
+ma7ccf398,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,TOR,2529,2539,66,66,msg.sender,tx.origin,live,6994
+me6a31c77,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,TOR,2838,2848,73,73,msg.sender,tx.origin,live,6987
+m689f0740,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,TOR,3529,3539,92,92,msg.sender,tx.origin,live,7000
+mcec16926,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,UORD,4024,4032,106,106,-byAmoun," byAmoun",killed,6788
+m5276849c,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,UORD,4507,4519,118,118,!banned[from," banned[from",killed,6512
+m80e34b5e,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,UORD,4564,4574,119,119,!banned[to," banned[to",killed,6478
+mafada346,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,VVR,715,739,18,18,uint TokensPerWei = 1000,uint public TokensPerWei = 1000,live,7002
+m20e42486,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,VVR,715,739,18,18,uint TokensPerWei = 1000,uint private TokensPerWei = 1000,live,7016
+m4501d4b2,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,VVR,746,777,19,19,uint sellbackTokenPerWei = 2000,uint public sellbackTokenPerWei = 2000,live,7015
+me8633e07,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Partial Refund/contracts/MyToken.sol,VVR,746,777,19,19,uint sellbackTokenPerWei = 2000,uint private sellbackTokenPerWei = 2000,live,7078

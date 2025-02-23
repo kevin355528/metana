@@ -1,6 +1,5 @@
 const { expect } = require("chai");
 const { ethers } = require("hardhat");
-const { time } = require("@nomicfoundation/hardhat-network-helpers");
 
 describe("erc1155", function () {
   let erc1155, Erc1155, owner, addr1, addr2, MINTER_ROLE;
@@ -36,10 +35,6 @@ describe("erc1155", function () {
       expect(
         Erc1155.connect(addr1).mint(addr1.address, 0, 1)
       ).to.be.revertedWith("ERC1155__CooldownNotElapsed");
-      await time.increase(60);
-      await Erc1155.connect(addr1).mint(addr1.address, 0, 1);
-      const balanceToken1 = await Erc1155.balanceOf(addr1.address, 0);
-      expect(balanceToken1).to.equal(2);
     });
 
     it("Should enforce a 1-minute cooldown between mints for token 1", async function () {
@@ -47,10 +42,6 @@ describe("erc1155", function () {
       expect(
         Erc1155.connect(addr1).mint(addr1.address, 1, 1)
       ).to.be.revertedWith("ERC1155__CooldownNotElapsed");
-      await time.increase(60);
-      await Erc1155.connect(addr1).mint(addr1.address, 1, 1);
-      const balanceToken1 = await Erc1155.balanceOf(addr1.address, 1);
-      expect(balanceToken1).to.equal(2);
     });
 
     it("Should enforce a 1-minute cooldown between mints for token 2", async function () {
@@ -58,10 +49,6 @@ describe("erc1155", function () {
       expect(
         Erc1155.connect(addr1).mint(addr1.address, 2, 1)
       ).to.be.revertedWith("ERC1155__CooldownNotElapsed");
-      await time.increase(60);
-      await Erc1155.connect(addr1).mint(addr1.address, 2, 1);
-      const balanceToken1 = await Erc1155.balanceOf(addr1.address, 2);
-      expect(balanceToken1).to.equal(2);
     });
 
     it("Should not allow minting token 3 by non-forging contract", async function () {

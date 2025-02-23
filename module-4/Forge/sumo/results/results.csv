@@ -1,0 +1,273 @@
+Hash,File,Operator,Start,End,StartLine,EndLine,Original,Replacement,Status,Time(ms)
+m1bf81a80,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,AVR,2997,3013,84,84,_forgingContract,address(this),killed,7067
+m1e4d1963,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,AVR,2997,3013,84,84,_forgingContract,address(0),killed,7111
+mdf7232fc,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,1532,1536,45,45," <= ","  < ",killed,6176
+m14991852,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,1532,1536,45,45," <= ","  > ",killed,6066
+m5c27a6ce,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,1532,1536,45,45," <= "," >= ",killed,6007
+m20f07cbc,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,1532,1536,45,45," <= "," != ",killed,6083
+m8dcea6e6,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,1532,1536,45,45," <= "," == ",killed,5961
+m29c683b4,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,1624,1627,46,46," < "," <= ",live,7220
+m8c2ac8de,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,1624,1627,46,46," < "," >=  ",killed,6099
+m719d4ed8,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,1624,1627,46,46," < "," > ",killed,5991
+m460b15c5,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,1624,1627,46,46," < "," != ",killed,6112
+mbfe99d89,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,1624,1627,46,46," < "," == ",live,7345
+m8c215ce3,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,1582,1585,46,46," - "," + ",live,7416
+mfe0de014,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,1582,1585,46,46," - "," * ",killed,6215
+mfb3b41fa,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,1582,1585,46,46," - "," / ",killed,6085
+ma3f51376,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,1582,1585,46,46," - "," ** ",killed,6185
+mc267c2be,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,1582,1585,46,46," - "," % ",killed,6126
+m8f6cfafe,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,2153,2157,61,61," && "," || ",live,7605
+ma5ac137e,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,2148,2152,61,61," >= ","  > ",killed,6870
+m1d71212d,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,2148,2152,61,61," >= ","  < ",killed,6697
+mf1091dea,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,2148,2152,61,61," >= "," <= ",killed,6461
+m4a082911,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,2148,2152,61,61," >= "," != ",killed,6930
+m6a0f4182,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,2148,2152,61,61," >= "," == ",killed,7118
+m2f063f73,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,2164,2168,61,61," <= ","  < ",killed,6674
+m1e024661,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,2164,2168,61,61," <= ","  > ",killed,6370
+m5cbc5702,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,2164,2168,61,61," <= "," >= ",killed,6223
+m73fd33d9,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,2164,2168,61,61," <= "," != ",killed,6493
+m49457bb5,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,2164,2168,61,61," <= "," == ",killed,6241
+m9a748d50,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,2266,2270,63,63," && "," || ",live,7256
+m772c18e5,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,2252,2256,63,63," >= ","  > ",killed,6319
+mbc4879ec,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,2252,2256,63,63," >= ","  < ",killed,6225
+m07a88536,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,2252,2256,63,63," >= "," <= ",killed,6311
+mc9f26985,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,2252,2256,63,63," >= "," != ",killed,6271
+m3c814b38,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,2252,2256,63,63," >= "," == ",killed,6337
+m35a7cb49,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,2282,2286,63,63," <= ","  < ",killed,6330
+mfa18e616,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,2282,2286,63,63," <= ","  > ",killed,6345
+mb9dd3211,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,2282,2286,63,63," <= "," >= ",killed,6296
+mf9c2c8a2,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,2282,2286,63,63," <= "," != ",killed,6360
+mcaea1031,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,2282,2286,63,63," <= "," == ",killed,6390
+m55a032b6,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,2880,2884,80,80," != "," >  ",live,7272
+m8f3282d3,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,2880,2884,80,80," != ","  < ",killed,6927
+m923439df,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,2880,2884,80,80," != "," <= ",killed,7061
+m0ab54748,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,2880,2884,80,80," != "," >= ",live,7253
+mbfca3332,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,BOR,2880,2884,80,80," != "," == ",killed,6946
+m8584b6fe,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,CCD,1276,1430,39,42,"constructor()        ERC1155(""ipfs://QmdpEYwJircF4qH5imJG4bJT3TH6rNYxzCL2d8B4bG7Uhy/{id}"") {        _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);    }",,stillborn,2326
+mf6464659,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,CSC,1525,1546,45,45,tokenId <= TOKEN_ID_2,true,live,7296
+me57371d2,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,CSC,1525,1546,45,45,tokenId <= TOKEN_ID_2,false,killed,6015
+m49a99163,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,CSC,1805,1922,45,53," else {            if (!hasRole(MINTER_ROLE, msg.sender))                revert ERC1155__NotAMinter();        }",,live,7264
+me7e3173a,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,CSC,1567,1640,46,46,block.timestamp - _lastMintTimestamp[msg.sender][tokenId] < COOLDOWN_TIME,true,killed,6165
+mebc6bdc5,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,CSC,1567,1640,46,46,block.timestamp - _lastMintTimestamp[msg.sender][tokenId] < COOLDOWN_TIME,false,live,7283
+m1fed591e,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,CSC,1830,1863,51,51,"!hasRole(MINTER_ROLE, msg.sender)",true,killed,6293
+m79322cde,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,CSC,1830,1863,51,51,"!hasRole(MINTER_ROLE, msg.sender)",false,live,7276
+mb6ef468a,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,CSC,2139,2170,61,61,!(tokenId >= 3 && tokenId <= 6),true,killed,6276
+m7a38bc59,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,CSC,2139,2170,61,61,!(tokenId >= 3 && tokenId <= 6),false,live,7248
+mb5f7669c,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,CSC,2238,2297,63,63,!(desiredToken >= TOKEN_ID_0 && desiredToken <= TOKEN_ID_2),true,killed,6310
+mb04b0994,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,CSC,2238,2297,63,63,!(desiredToken >= TOKEN_ID_0 && desiredToken <= TOKEN_ID_2),false,live,7220
+m910afd5b,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,CSC,2863,2894,80,80,s_forgingContract != address(0),true,live,7650
+m8de921be,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,CSC,2863,2894,80,80,s_forgingContract != address(0),false,killed,6988
+m5811fdf5,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,EED,1980,2021,56,56,"emit Minted(msg.sender, tokenId, amount);","/* emit Minted(msg.sender, tokenId, amount); */",live,7396
+mf83e30a4,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,EED,2457,2512,68,68,"emit Traded(msg.sender, tokenId, desiredToken, amount);","/* emit Traded(msg.sender, tokenId, desiredToken, amount); */",live,7183
+m8000127e,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,EED,2657,2695,74,74,"emit Burned(account, tokenId, amount);","/* emit Burned(account, tokenId, amount); */",live,7216
+mf7203af4,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,EHC,2782,2847,78,78,"require(hasRole(DEFAULT_ADMIN_ROLE, msg.sender), ""Not an admin"");","/* require(hasRole(DEFAULT_ADMIN_ROLE, msg.sender), ""Not an admin""); */",live,7088
+m9fa2e74a,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,FVR,1439,1510,44,44,"function mint(address account, uint256 tokenId, uint256 amount) public ","function mint(address account, uint256 tokenId, uint256 amount) external ",stillborn,2488
+mab6910e9,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,FVR,1439,1510,44,44,"function mint(address account, uint256 tokenId, uint256 amount) public ","function mint(address account, uint256 tokenId, uint256 amount) internal ",stillborn,2176
+md9d35d01,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,FVR,1439,1510,44,44,"function mint(address account, uint256 tokenId, uint256 amount) public ","function mint(address account, uint256 tokenId, uint256 amount) private ",stillborn,2227
+mfd0153d7,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,FVR,2042,2124,60,60,"function tradeToken(uint256 tokenId, uint256 desiredToken, uint256 amount) public ","function tradeToken(uint256 tokenId, uint256 desiredToken, uint256 amount) external ",live,7233
+me1b2ec9d,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,FVR,2042,2124,60,60,"function tradeToken(uint256 tokenId, uint256 desiredToken, uint256 amount) public ","function tradeToken(uint256 tokenId, uint256 desiredToken, uint256 amount) internal ",killed,6135
+m479bc1d0,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,FVR,2042,2124,60,60,"function tradeToken(uint256 tokenId, uint256 desiredToken, uint256 amount) public ","function tradeToken(uint256 tokenId, uint256 desiredToken, uint256 amount) private ",killed,6179
+maa962353,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,FVR,2533,2604,72,72,"function burn(address account, uint256 tokenId, uint256 amount) public ","function burn(address account, uint256 tokenId, uint256 amount) external ",live,7118
+mb3e75504,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,FVR,2533,2604,72,72,"function burn(address account, uint256 tokenId, uint256 amount) public ","function burn(address account, uint256 tokenId, uint256 amount) internal ",stillborn,2148
+m65ef84fc,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,FVR,2533,2604,72,72,"function burn(address account, uint256 tokenId, uint256 amount) public ","function burn(address account, uint256 tokenId, uint256 amount) private ",stillborn,2146
+mf7660b53,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,FVR,2710,2771,77,77,"function setForgingContract(address _forgingContract) public ","function setForgingContract(address _forgingContract) external ",live,7370
+mada0cf92,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,FVR,2710,2771,77,77,"function setForgingContract(address _forgingContract) public ","function setForgingContract(address _forgingContract) internal ",killed,7134
+mb4e52140,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,FVR,2710,2771,77,77,"function setForgingContract(address _forgingContract) public ","function setForgingContract(address _forgingContract) private ",killed,6957
+m25b37e77,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,FVR,3259,3352,92,92,"function getLastMintTimestamp(address user, uint256 tokenId) external view returns (uint256) ","function getLastMintTimestamp(address user, uint256 tokenId) public view returns (uint256) ",live,7286
+m3c2b77de,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,FVR,3259,3352,92,92,"function getLastMintTimestamp(address user, uint256 tokenId) external view returns (uint256) ","function getLastMintTimestamp(address user, uint256 tokenId) internal view returns (uint256) ",killed,6811
+m82a62a0e,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,FVR,3259,3352,92,92,"function getLastMintTimestamp(address user, uint256 tokenId) external view returns (uint256) ","function getLastMintTimestamp(address user, uint256 tokenId) private view returns (uint256) ",killed,6671
+m73a30a23,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,GVR,1567,1582,46,46,block.timestamp,block.number,killed,5974
+m386c3aa3,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,GVR,1567,1582,46,46,block.timestamp,block.difficulty,live,7170
+m73b7781c,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,GVR,1567,1582,46,46,block.timestamp,block.gaslimit,live,7129
+m4abe6118,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,GVR,1567,1582,46,46,block.timestamp,tx.gasprice,live,6983
+m002178c8,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,GVR,1567,1582,46,46,block.timestamp,gasleft(),live,7074
+ma2666052,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,GVR,1567,1582,46,46,block.timestamp,msg.value,stillborn,2127
+m35ed8252,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,GVR,1778,1793,49,49,block.timestamp,block.number,killed,6736
+m16dbf580,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,GVR,1778,1793,49,49,block.timestamp,block.difficulty,killed,6738
+m6477c668,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,GVR,1778,1793,49,49,block.timestamp,block.gaslimit,killed,6724
+m8c054158,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,GVR,1778,1793,49,49,block.timestamp,tx.gasprice,killed,6913
+m2abea2a3,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,GVR,1778,1793,49,49,block.timestamp,gasleft(),killed,6798
+mc14e80be,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,GVR,1778,1793,49,49,block.timestamp,msg.value,stillborn,2152
+m940d564e,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,ILR,472,473,16,16,0,1,killed,6058
+m72dcd6f9,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,ILR,517,518,17,17,1,0,live,6998
+m96311e73,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,ILR,517,518,17,17,1,2,live,6998
+md6b0d034,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,ILR,562,563,18,18,2,1,killed,5881
+mcd28926c,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,ILR,562,563,18,18,2,3,live,7183
+m6f228a9f,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,ILR,783,792,24,24,1 minutes,0 minutes,live,7042
+m1d509124,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,ILR,783,792,24,24,1 minutes,2 minutes,live,7042
+m00e91907,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,ILR,2152,2153,61,61,3,2,live,7042
+m7cec751c,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,ILR,2152,2153,61,61,3,4,killed,6115
+m0bb0d7d9,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,ILR,2168,2169,61,61,6,5,killed,6386
+m1d911455,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,ILR,2168,2169,61,61,6,7,live,7237
+mab92e34a,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,ILR,2892,2893,80,80,0,1,live,7244
+m14127b1b,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,MCR,656,665,21,21,keccak256,sha256,live,7265
+m3bd7a98a,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,MOD,1276,1369,39,40,"constructor()        ERC1155(""ipfs://QmdpEYwJircF4qH5imJG4bJT3TH6rNYxzCL2d8B4bG7Uhy/{id}"") ","constructor()         ",stillborn,2211
+m4af418e9,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,ORFD,3082,3251,88,90,"function supportsInterface(bytes4 interfaceId) public view override(ERC1155, AccessControl) returns (bool) {        return super.supportsInterface(interfaceId);    }",,stillborn,2196
+m17c81de6,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,RSD,3200,3244,89,89,return super.supportsInterface(interfaceId);,/* return super.supportsInterface(interfaceId); */,live,7221
+m189bf337,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,RSD,3363,3404,93,93,return _lastMintTimestamp[user][tokenId];,/* return _lastMintTimestamp[user][tokenId]; */,killed,6934
+mdf2a63a8,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,SKD,3207,3213,89,89,super.,,live,7305
+m4dab8a41,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,SLR,666,679,21,21,"""MINTER_ROLE""","""""",live,7215
+m169d2cf7,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,SLR,1307,1367,40,40,"""ipfs://QmdpEYwJircF4qH5imJG4bJT3TH6rNYxzCL2d8B4bG7Uhy/{id}""","""""",live,7276
+mab85c15a,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,TOR,1411,1421,41,41,msg.sender,tx.origin,live,7258
+mbea5e427,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,TOR,1604,1614,46,46,msg.sender,tx.origin,live,7220
+me1b10ad4,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,TOR,1755,1765,49,49,msg.sender,tx.origin,live,7267
+m3ec41aa1,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,TOR,1852,1862,51,51,msg.sender,tx.origin,killed,7061
+mba180cf0,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,TOR,1992,2002,56,56,msg.sender,tx.origin,live,7221
+mbd04c9a6,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,TOR,2369,2379,66,66,msg.sender,tx.origin,live,7204
+m8d7250b5,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,TOR,2413,2423,67,67,msg.sender,tx.origin,live,7277
+m482a72ba,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,TOR,2469,2479,68,68,msg.sender,tx.origin,live,7276
+m44d36535,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,TOR,2818,2828,78,78,msg.sender,tx.origin,live,7298
+m46fdb878,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,UORD,1830,1862,51,51,"!hasRole(MINTER_ROLE, msg.sender"," hasRole(MINTER_ROLE, msg.sender",killed,6210
+m0f4ca3a9,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,UORD,2139,2169,61,61,!(tokenId >= 3 && tokenId <= 6," (tokenId >= 3 && tokenId <= 6",killed,6323
+m27acc3e5,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,UORD,2238,2296,63,63,!(desiredToken >= TOKEN_ID_0 && desiredToken <= TOKEN_ID_2," (desiredToken >= TOKEN_ID_0 && desiredToken <= TOKEN_ID_2",killed,6309
+m9528fc70,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,VUR,783,792,24,24,1 minutes,1 seconds,live,7200
+m74dd5be5,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,VUR,783,792,24,24,1 minutes,1 hours,live,7273
+m53ba5393,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,VUR,783,792,24,24,1 minutes,1 days,live,7223
+m6accef73,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,VUR,783,792,24,24,1 minutes,1 weeks,live,7253
+mdd51be63,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,VVR,435,473,16,16,uint256 public constant TOKEN_ID_0 = 0,uint256 internal constant TOKEN_ID_0 = 0,live,7193
+m9e287ee7,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,VVR,435,473,16,16,uint256 public constant TOKEN_ID_0 = 0,uint256 private constant TOKEN_ID_0 = 0,live,7157
+m46d9744d,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,VVR,480,518,17,17,uint256 public constant TOKEN_ID_1 = 1,uint256 internal constant TOKEN_ID_1 = 1,live,6983
+m0ccc4573,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,VVR,480,518,17,17,uint256 public constant TOKEN_ID_1 = 1,uint256 private constant TOKEN_ID_1 = 1,live,7020
+m1029a7db,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,VVR,525,563,18,18,uint256 public constant TOKEN_ID_2 = 2,uint256 internal constant TOKEN_ID_2 = 2,live,7028
+mb8c08ad6,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,VVR,525,563,18,18,uint256 public constant TOKEN_ID_2 = 2,uint256 private constant TOKEN_ID_2 = 2,live,6999
+m4b6d5b6e,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,VVR,618,680,21,21,"bytes32 public constant MINTER_ROLE = keccak256(""MINTER_ROLE"")","bytes32 internal constant MINTER_ROLE = keccak256(""MINTER_ROLE"")",killed,5840
+m7fa444c9,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,VVR,618,680,21,21,"bytes32 public constant MINTER_ROLE = keccak256(""MINTER_ROLE"")","bytes32 private constant MINTER_ROLE = keccak256(""MINTER_ROLE"")",killed,5836
+m430878d8,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,VVR,743,792,24,24,uint256 public constant COOLDOWN_TIME = 1 minutes,uint256 internal constant COOLDOWN_TIME = 1 minutes,live,7031
+m130bd79c,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,VVR,743,792,24,24,uint256 public constant COOLDOWN_TIME = 1 minutes,uint256 private constant COOLDOWN_TIME = 1 minutes,live,7034
+mf814e433,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,VVR,827,860,27,27,address private s_forgingContract,address public s_forgingContract,live,7095
+mee5a1915,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/ERC1155.sol,VVR,827,860,27,27,address private s_forgingContract,address internal s_forgingContract,live,7076
+ma9888050,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,1057,1060,33,33," < "," <= ",live,7071
+m062231a9,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,1057,1060,33,33," < "," >=  ",killed,6955
+m631bea9d,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,1057,1060,33,33," < "," > ",killed,6842
+m291acf39,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,1057,1060,33,33," < "," != ",killed,6820
+m47c9560c,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,1057,1060,33,33," < "," == ",live,7121
+m6baa354d,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,1189,1192,36,36," < "," <= ",live,7172
+m68074966,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,1189,1192,36,36," < "," >=  ",killed,6916
+med267d7e,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,1189,1192,36,36," < "," > ",killed,6848
+mdf376b1f,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,1189,1192,36,36," < "," != ",killed,6797
+mcb102b7d,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,1189,1192,36,36," < "," == ",live,7203
+m1d27cbfe,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,1690,1693,49,49," < "," <= ",live,7125
+m505934cb,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,1690,1693,49,49," < "," >=  ",killed,6972
+mddaff18d,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,1690,1693,49,49," < "," > ",killed,6887
+md1abe162,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,1690,1693,49,49," < "," != ",killed,6958
+mf18a83fc,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,1690,1693,49,49," < "," == ",live,7211
+mc2165044,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,1822,1825,52,52," < "," <= ",live,7126
+m0d72f624,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,1822,1825,52,52," < "," >=  ",killed,6949
+ma8e51eb3,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,1822,1825,52,52," < "," > ",killed,7002
+m3fe37ecb,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,1822,1825,52,52," < "," != ",killed,7057
+mb4bda35d,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,1822,1825,52,52," < "," == ",live,7137
+m80a9ddc3,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,2323,2326,65,65," < "," <= ",live,7071
+m58ec242d,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,2323,2326,65,65," < "," >=  ",killed,6982
+mbfa68405,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,2323,2326,65,65," < "," > ",killed,7046
+m356906b2,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,2323,2326,65,65," < "," != ",killed,7065
+me3ace455,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,2323,2326,65,65," < "," == ",live,7335
+m6b35197f,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,2455,2458,68,68," < "," <= ",live,7129
+m3b5e9961,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,2455,2458,68,68," < "," >=  ",killed,7042
+m0e7016b9,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,2455,2458,68,68," < "," > ",killed,6998
+m43de4ea8,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,2455,2458,68,68," < "," != ",killed,7000
+m0ba14651,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,2455,2458,68,68," < "," == ",live,7289
+m488bece4,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,2960,2963,81,81," < "," <= ",live,7180
+m91dcfeda,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,2960,2963,81,81," < "," >=  ",killed,7048
+m6a426606,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,2960,2963,81,81," < "," > ",killed,7135
+m6ec2e7e0,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,2960,2963,81,81," < "," != ",killed,7102
+mf79454ed,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,2960,2963,81,81," < "," == ",live,7243
+m9dbe6efa,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,3092,3095,84,84," < "," <= ",live,7161
+ma213921e,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,3092,3095,84,84," < "," >=  ",killed,7094
+ma2504d67,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,3092,3095,84,84," < "," > ",killed,7098
+m81c0770b,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,3092,3095,84,84," < "," != ",killed,7056
+m3b9760bf,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,3092,3095,84,84," < "," == ",live,7125
+m146c8a6e,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,3224,3227,87,87," < "," <= ",live,7142
+mcb3fa911,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,3224,3227,87,87," < "," >=  ",killed,7109
+mf7504398,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,3224,3227,87,87," < "," > ",killed,7093
+mc3b82a36,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,3224,3227,87,87," < "," != ",killed,7174
+md73bf7fe,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,BOR,3224,3227,87,87," < "," == ",live,7304
+m8b89483a,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,CCD,791,890,27,29,constructor(address _erc1155Address) {        _erc1155Contract = erc1155(_erc1155Address);    },,killed,6827
+m2668d3ed,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,CSC,1007,1067,33,33,"_erc1155Contract.balanceOf(msg.sender, TOKEN_ID_0) < _amount",true,killed,6767
+m0306a2ae,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,CSC,1007,1067,33,33,"_erc1155Contract.balanceOf(msg.sender, TOKEN_ID_0) < _amount",false,live,7185
+m7dfd4bc1,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,CSC,1139,1199,36,36,"_erc1155Contract.balanceOf(msg.sender, TOKEN_ID_1) < _amount",true,killed,6822
+mde80363d,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,CSC,1139,1199,36,36,"_erc1155Contract.balanceOf(msg.sender, TOKEN_ID_1) < _amount",false,live,7090
+md2fa55de,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,CSC,1640,1700,49,49,"_erc1155Contract.balanceOf(msg.sender, TOKEN_ID_1) < _amount",true,killed,6871
+mdc6e2705,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,CSC,1640,1700,49,49,"_erc1155Contract.balanceOf(msg.sender, TOKEN_ID_1) < _amount",false,live,7351
+m74ca81ba,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,CSC,1772,1832,52,52,"_erc1155Contract.balanceOf(msg.sender, TOKEN_ID_2) < _amount",true,killed,6875
+m5d2b22f5,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,CSC,1772,1832,52,52,"_erc1155Contract.balanceOf(msg.sender, TOKEN_ID_2) < _amount",false,live,7121
+m999b70c9,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,CSC,2273,2333,65,65,"_erc1155Contract.balanceOf(msg.sender, TOKEN_ID_0) < _amount",true,killed,7022
+m41974eb4,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,CSC,2273,2333,65,65,"_erc1155Contract.balanceOf(msg.sender, TOKEN_ID_0) < _amount",false,live,7183
+m218e5109,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,CSC,2405,2465,68,68,"_erc1155Contract.balanceOf(msg.sender, TOKEN_ID_2) < _amount",true,killed,7034
+m10b8d856,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,CSC,2405,2465,68,68,"_erc1155Contract.balanceOf(msg.sender, TOKEN_ID_2) < _amount",false,live,7183
+mbf797909,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,CSC,2910,2970,81,81,"_erc1155Contract.balanceOf(msg.sender, TOKEN_ID_0) < _amount",true,killed,7079
+m8be405b5,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,CSC,2910,2970,81,81,"_erc1155Contract.balanceOf(msg.sender, TOKEN_ID_0) < _amount",false,live,7146
+m58ac5370,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,CSC,3042,3102,84,84,"_erc1155Contract.balanceOf(msg.sender, TOKEN_ID_1) < _amount",true,killed,7178
+mbe0875ca,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,CSC,3042,3102,84,84,"_erc1155Contract.balanceOf(msg.sender, TOKEN_ID_1) < _amount",false,live,7177
+m3cfded04,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,CSC,3174,3234,87,87,"_erc1155Contract.balanceOf(msg.sender, TOKEN_ID_2) < _amount",true,killed,7143
+m6720a201,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,CSC,3174,3234,87,87,"_erc1155Contract.balanceOf(msg.sender, TOKEN_ID_2) < _amount",false,live,7141
+md398a587,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,EED,1466,1516,44,44,"emit TokenForged(msg.sender, TOKEN_ID_3, _amount);","/* emit TokenForged(msg.sender, TOKEN_ID_3, _amount); */",live,7162
+m2aed42ba,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,EED,2099,2149,60,60,"emit TokenForged(msg.sender, TOKEN_ID_4, _amount);","/* emit TokenForged(msg.sender, TOKEN_ID_4, _amount); */",live,7206
+m545af951,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,EED,2732,2782,76,76,"emit TokenForged(msg.sender, TOKEN_ID_5, _amount);","/* emit TokenForged(msg.sender, TOKEN_ID_5, _amount); */",live,7280
+mc3b93415,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,EED,3566,3616,96,96,"emit TokenForged(msg.sender, TOKEN_ID_6, _amount);","/* emit TokenForged(msg.sender, TOKEN_ID_6, _amount); */",live,7358
+m4d92d5ba,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,FVR,945,992,32,32,"function forgeToken3(uint256 _amount) external ","function forgeToken3(uint256 _amount) public ",live,7235
+m653442d3,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,FVR,945,992,32,32,"function forgeToken3(uint256 _amount) external ","function forgeToken3(uint256 _amount) internal ",killed,6902
+m04920eaa,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,FVR,945,992,32,32,"function forgeToken3(uint256 _amount) external ","function forgeToken3(uint256 _amount) private ",killed,6837
+m93ee3358,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,FVR,1578,1625,48,48,"function forgeToken4(uint256 _amount) external ","function forgeToken4(uint256 _amount) public ",live,7140
+m961b6fcf,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,FVR,1578,1625,48,48,"function forgeToken4(uint256 _amount) external ","function forgeToken4(uint256 _amount) internal ",killed,6889
+m932f85b5,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,FVR,1578,1625,48,48,"function forgeToken4(uint256 _amount) external ","function forgeToken4(uint256 _amount) private ",killed,6922
+mce7708cc,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,FVR,2211,2258,64,64,"function forgeToken5(uint256 _amount) external ","function forgeToken5(uint256 _amount) public ",live,7154
+mb564dc26,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,FVR,2211,2258,64,64,"function forgeToken5(uint256 _amount) external ","function forgeToken5(uint256 _amount) internal ",killed,7004
+m23a37701,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,FVR,2211,2258,64,64,"function forgeToken5(uint256 _amount) external ","function forgeToken5(uint256 _amount) private ",killed,6988
+m338b97fb,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,FVR,2848,2895,80,80,"function forgeToken6(uint256 _amount) external ","function forgeToken6(uint256 _amount) public ",live,7206
+m92dd9fff,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,FVR,2848,2895,80,80,"function forgeToken6(uint256 _amount) external ","function forgeToken6(uint256 _amount) internal ",killed,7057
+mc88be086,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,FVR,2848,2895,80,80,"function forgeToken6(uint256 _amount) external ","function forgeToken6(uint256 _amount) private ",killed,7088
+m7da99bf9,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,ILR,308,309,13,13,0,1,killed,6795
+m9dda84a1,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,ILR,353,354,14,14,1,0,killed,6810
+m4bd35c62,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,ILR,353,354,14,14,1,2,killed,6841
+m14aafc78,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,ILR,398,399,15,15,2,1,killed,6892
+me986605f,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,ILR,398,399,15,15,2,3,killed,6906
+m8ca35a66,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,ILR,443,444,16,16,3,2,killed,6863
+m8c578ba2,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,ILR,443,444,16,16,3,4,killed,6886
+m7fbd987d,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,ILR,488,489,17,17,4,3,killed,7017
+m806aeb39,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,ILR,488,489,17,17,4,5,killed,7002
+m669867e7,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,ILR,533,534,18,18,5,4,killed,6973
+m63543a6f,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,ILR,533,534,18,18,5,6,killed,7065
+m07ed55f5,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,ILR,578,579,19,19,6,5,killed,7043
+m18c2409a,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,ILR,578,579,19,19,6,7,killed,7101
+md6684fa2,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,TOR,1034,1044,33,33,msg.sender,tx.origin,live,7087
+m1201a684,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,TOR,1166,1176,36,36,msg.sender,tx.origin,live,7177
+mb5d4b8b1,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,TOR,1291,1301,40,40,msg.sender,tx.origin,live,7179
+m758607c9,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,TOR,1356,1366,41,41,msg.sender,tx.origin,live,7100
+mb3c26c10,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,TOR,1421,1431,42,42,msg.sender,tx.origin,live,7126
+md4aa8d1b,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,TOR,1483,1493,44,44,msg.sender,tx.origin,live,7108
+mc438c449,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,TOR,1667,1677,49,49,msg.sender,tx.origin,live,7173
+mb1a0210d,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,TOR,1799,1809,52,52,msg.sender,tx.origin,live,7126
+m53fd3265,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,TOR,1924,1934,56,56,msg.sender,tx.origin,live,7141
+m989bb06c,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,TOR,1989,1999,57,57,msg.sender,tx.origin,live,7238
+m531d2e8a,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,TOR,2054,2064,58,58,msg.sender,tx.origin,live,7363
+m48dba32d,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,TOR,2116,2126,60,60,msg.sender,tx.origin,live,7568
+m4fd8d3e5,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,TOR,2300,2310,65,65,msg.sender,tx.origin,live,7174
+m815d8426,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,TOR,2432,2442,68,68,msg.sender,tx.origin,live,7157
+mfa065207,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,TOR,2557,2567,72,72,msg.sender,tx.origin,live,7148
+ma21efec5,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,TOR,2622,2632,73,73,msg.sender,tx.origin,live,7212
+m7a7cc416,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,TOR,2687,2697,74,74,msg.sender,tx.origin,live,7202
+mcf65d3e9,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,TOR,2749,2759,76,76,msg.sender,tx.origin,live,7293
+mf66e0c6d,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,TOR,2937,2947,81,81,msg.sender,tx.origin,live,7177
+m11c54f78,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,TOR,3069,3079,84,84,msg.sender,tx.origin,live,7279
+m21a1bb93,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,TOR,3201,3211,87,87,msg.sender,tx.origin,live,7145
+m68be8e36,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,TOR,3326,3336,91,91,msg.sender,tx.origin,live,7117
+mef560536,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,TOR,3391,3401,92,92,msg.sender,tx.origin,live,7154
+md4869f9e,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,TOR,3456,3466,93,93,msg.sender,tx.origin,live,7123
+m5c9258ac,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,TOR,3521,3531,94,94,msg.sender,tx.origin,live,7125
+m4e9ff012,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,TOR,3583,3593,96,96,msg.sender,tx.origin,live,7134
+m00bccdbe,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,VVR,271,309,13,13,uint256 public constant TOKEN_ID_0 = 0,uint256 internal constant TOKEN_ID_0 = 0,live,7249
+m81603b2e,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,VVR,271,309,13,13,uint256 public constant TOKEN_ID_0 = 0,uint256 private constant TOKEN_ID_0 = 0,live,7075
+mbc1a1fe0,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,VVR,316,354,14,14,uint256 public constant TOKEN_ID_1 = 1,uint256 internal constant TOKEN_ID_1 = 1,live,7125
+m1bae48d5,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,VVR,316,354,14,14,uint256 public constant TOKEN_ID_1 = 1,uint256 private constant TOKEN_ID_1 = 1,live,7532
+m3a204f1e,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,VVR,361,399,15,15,uint256 public constant TOKEN_ID_2 = 2,uint256 internal constant TOKEN_ID_2 = 2,live,7929
+m79167ea8,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,VVR,361,399,15,15,uint256 public constant TOKEN_ID_2 = 2,uint256 private constant TOKEN_ID_2 = 2,live,7909
+m424a5e5a,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,VVR,406,444,16,16,uint256 public constant TOKEN_ID_3 = 3,uint256 internal constant TOKEN_ID_3 = 3,live,7665
+m174f62f9,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,VVR,406,444,16,16,uint256 public constant TOKEN_ID_3 = 3,uint256 private constant TOKEN_ID_3 = 3,live,7083
+mf0d01801,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,VVR,451,489,17,17,uint256 public constant TOKEN_ID_4 = 4,uint256 internal constant TOKEN_ID_4 = 4,live,6999
+mb6409b95,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,VVR,451,489,17,17,uint256 public constant TOKEN_ID_4 = 4,uint256 private constant TOKEN_ID_4 = 4,live,6960
+m4caa1cff,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,VVR,496,534,18,18,uint256 public constant TOKEN_ID_5 = 5,uint256 internal constant TOKEN_ID_5 = 5,live,7128
+m2538cbce,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,VVR,496,534,18,18,uint256 public constant TOKEN_ID_5 = 5,uint256 private constant TOKEN_ID_5 = 5,live,7173
+mb62574f8,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,VVR,541,579,19,19,uint256 public constant TOKEN_ID_6 = 6,uint256 internal constant TOKEN_ID_6 = 6,live,7117
+ma7cda0bc,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,VVR,541,579,19,19,uint256 public constant TOKEN_ID_6 = 6,uint256 private constant TOKEN_ID_6 = 6,live,6959
+m0bf68b59,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,VVR,638,670,22,22,erc1155 private _erc1155Contract,erc1155 public _erc1155Contract,live,7136
+m3109221f,C:/Users/julya/Desktop/solidity/metana-bootcamp/module-4/Forge/contracts/Forge.sol,VVR,638,670,22,22,erc1155 private _erc1155Contract,erc1155 internal _erc1155Contract,live,6997
