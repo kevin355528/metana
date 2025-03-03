@@ -1,0 +1,23 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "alchemy-sdk": "^2.10.1",
+    "apexcharts": "^3.44.0",
+    "ethers": "^6.8.0",
+    "next": "12.0.0",
+    "react": "17.0.2",
+    "react-apexcharts": "^1.4.1",
+    "react-dom": "17.0.2",
+    "tailwindcss": "^3.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.5"
+  }
+}
