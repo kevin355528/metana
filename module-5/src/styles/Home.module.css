@@ -1,0 +1,40 @@
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2em;
+  gap: 1rem;
+}
+
+.barchartContainer {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blockInfoContainer {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.button {
+  margin: 1rem;
+  padding: 12px;
+  border: 2px solid;
+  border-radius: 5px;
+  color: white;
+}
+
+.chart_1 {
+  border-color: #C0392B;
+  background-color: #E74C3C;
+}
+
+.chart_2 {
+  border-color: #27AE60;
+  background-color: #2ECC71;
+}
